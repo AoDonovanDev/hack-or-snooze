@@ -1,0 +1,32 @@
+/* Navigation bar */
+
+nav {
+  display: flex;
+  background-color: #ff6600;
+  align-items: center;
+  padding: 20px 20px;
+  border-radius: 3px 3px 0 0;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  font-size: 0.85rem;
+  margin: 0 3px;
+}
+
+.nav-right {
+  margin-left: auto;
+  text-align: right;
+  font-weight: bold;
+}
+.fa-trash-alt:hover{
+  color: red;
+  cursor: grab;
+}
+.mainNav{
+  margin-left: 16px;
+  font-size: 14px;
+}
